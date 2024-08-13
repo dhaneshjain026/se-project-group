@@ -53,12 +53,12 @@ export default class Content extends Component {
             loading: false,
             disabledNetworks: ['polygon', 'ethereum'],
             networksList: [
-                { key: 'bsc', name: 'Binance Smart Chain' },
+                { key: 'bsc', name: 'Etherscan' },
                 { key: 'polygon', name: 'Polygon' },
                 { key: 'ethereum', name: 'Ethereum' },
             ],
             paymentsList: [
-                { key: 'bnb', name: `Pay with BNB/MATIC/ETH` },
+                { key: 'bnb', name: `Pay with Sepolia/MATIC/ETH` },
                 { key: 'mda', name: 'Pay with MDA' }
             ],
             tokenTypesList: [
